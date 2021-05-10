@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Changed CSS from Class Header to just Header and edited all of the children to match */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +21,12 @@ header h1 {
     font-size: 48px;
 }
 
+/* Replaced Span with abbr to match HTML */
 header h1 abbr {
     color: #d9dcd6;
 }
 
+/* Changed div to nav as nav is a better category and applied this to all of the children */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,6 +49,7 @@ a {
     text-decoration: none;
 }
 
+/* Added a hover feature to the navigation bar */
 a:hover {
     text-decoration: underline;
 }
@@ -58,6 +62,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    /* Changed the size of the photo to help loading time */
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
@@ -73,12 +78,14 @@ p {
     margin-left: 25px;
 }
 
+/* Replaced content class with an article */
 article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Changed the original benefits class to an idea */
 #benefits {
     margin-right: 20px;
     padding: 20px;
@@ -90,6 +97,7 @@ article {
     background-color: #2589bd;
 }
 
+/* Merged all of the other classes under the original benefits class into one new benefits class */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
@@ -106,6 +114,7 @@ article {
     max-width: 150px;
 }
 
+/* Condensed all of the classes in the article into one article class and updated all of the children */
 .article {
     margin-bottom: 20px;
     padding: 50px;
@@ -124,6 +133,7 @@ article {
     font-size: 36px;
 }
 
+/* Removed the Footer class and changed the CSS to Footer */
 footer {
     padding: 30px;
     clear: both;
